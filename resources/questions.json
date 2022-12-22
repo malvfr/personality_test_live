@@ -1,0 +1,112 @@
+[
+    {
+        "question": "I am more energized by spending time alone than being with others.",
+        "answers": [
+            {
+                "text": "Strongly agree",
+                "weight": 10
+            },
+            {
+                "text": "Slightly agree",
+                "weight": 7
+            },
+            {
+                "text": "Slightly disagree",
+                "weight": 3
+            },
+            {
+                "text": "Strongly disagree",
+                "weight": 1
+            }
+        ],
+        "dimension": "Introversion"
+    },
+    {
+        "question": "I enjoy trying new things and taking risks.",
+        "answers": [
+            {
+                "text": "Strongly agree",
+                "weight": 10
+            },
+            {
+                "text": "Slightly agree",
+                "weight": 7
+            },
+            {
+                "text": "Slightly disagree",
+                "weight": 3
+            },
+            {
+                "text": "Strongly disagree",
+                "weight": 1
+            }
+        ],
+        "dimension": "Extraversion"
+    },
+    {
+        "question": "I am more comfortable with a structured, predictable environment.",
+        "answers": [
+            {
+                "text": "Strongly agree",
+                "weight": 10
+            },
+            {
+                "text": "Slightly agree",
+                "weight": 7
+            },
+            {
+                "text": "Slightly disagree",
+                "weight": 3
+            },
+            {
+                "text": "Strongly disagree",
+                "weight": 1
+            }
+        ],
+        "dimension": "Conscientiousness"
+    },
+    {
+        "question": "I am open to new experiences and ideas.",
+        "answers": [
+            {
+                "text": "Strongly agree",
+                "weight": 10
+            },
+            {
+                "text": "Slightly agree",
+                "weight": 7
+            },
+            {
+                "text": "Slightly disagree",
+                "weight": 3
+            },
+            {
+                "text": "Strongly disagree",
+                "weight": 1
+            }
+        ],
+        "dimension": "Openness"
+    },
+    {
+        "question": "I am sensitive to the feelings and needs of others.",
+        "answers": [
+            {
+                "text": "Strongly agree",
+                "weight": 10
+            },
+            {
+                "text": "Slightly agree",
+                "weight": 7
+            },
+            {
+                "text": "Slightly disagree",
+                "weight": 3
+            },
+            {
+                "text": "Strongly disagree",
+                "weight": 1
+            }
+        ],
+        "dimension": "Agreeableness"
+    }
+]
