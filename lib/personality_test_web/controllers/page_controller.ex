@@ -4,4 +4,10 @@ defmodule PersonalityTestWeb.PageController do
   def index(conn, _params) do
     render(conn, "index.html")
   end
+
+  def create(conn, _params) do
+    slug = "/personality/" <> MnemonicSlugs.generate_slug()
+
+    redirect(conn, to: slug)
+  end
 end

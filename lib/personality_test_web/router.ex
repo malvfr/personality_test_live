@@ -18,6 +18,8 @@ defmodule PersonalityTestWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    post "/", PageController, :create
+    live "/personality/:id", PersonalityTestLive
   end
 
   # Other scopes may use custom stacks.
