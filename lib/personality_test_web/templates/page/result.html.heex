@@ -1,9 +1,7 @@
   <main class="px-3 rounded-3 border shadow-lg p-3 mb-5 bg-body">
     <h1 class="py-3">Here are your traits</h1>
     <p class="lead">
-           <%= button("Take the test again", class: "btn btn-lg btn-secondary fw-bold border-white", to: "/") %>
+        <h3> <%= @trait.text %> </h3>
+        <%= button("Take the test again", class: "btn btn-lg btn-secondary fw-bold border-white mt-3", to: "/") %>
     </p>
   </main>
-
-  <footer class="mt-auto">
-  </footer>
