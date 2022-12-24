@@ -66,7 +66,9 @@ defmodule PersonalityTestWeb.PersonalityTestLive do
                  <input required type="radio" class="form-check-input" name="question_weight" value={answer.weight}><%= answer.text %>
                </div>
              <% end %>
-             <%= submit("Next", class: "btn btn-md btn-secondary fw-bold border-white") %>
+             <div class="d-flex justify-content-end">
+                <%= submit("Next", class: "btn btn-md btn-secondary fw-bold border-white") %>
+             </div>
          </.form>
     </main>
     """
