@@ -19,6 +19,7 @@ defmodule PersonalityTestWeb.Router do
 
     get "/", PageController, :index
     post "/", PageController, :create
+    get "/result", PageController, :result
     live "/personality/:id", PersonalityTestLive
   end
 
