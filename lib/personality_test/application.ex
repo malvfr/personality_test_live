@@ -13,9 +13,10 @@ defmodule PersonalityTest.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: PersonalityTest.PubSub},
       # Start the Endpoint (http/https)
-      PersonalityTestWeb.Endpoint
+      PersonalityTestWeb.Endpoint,
       # Start a worker by calling: PersonalityTest.Worker.start_link(arg)
-      # {PersonalityTest.Worker, arg}
+      # {PersonalityTest.Worker, arg},
+      {PersonalityTest.Questions.InMemoryDb, %{}}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
