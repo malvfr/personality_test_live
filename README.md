@@ -1,18 +1,7 @@
-# PersonalityTest
+## Running
 
-To start your Phoenix server:
+You can find a running version hosted on Gigalixir [`here`](https://personality-test.gigalixirapp.com/)
 
-  * Install dependencies with `mix deps.get`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+If you want to run this locally, you need to have an Elixir/Phoenix environment set up.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+You can use the official guide to install Elixir and the Phoenix framework by following the instructions on the [official Phoenix website](https://hexdocs.pm/phoenix/installation.html).
