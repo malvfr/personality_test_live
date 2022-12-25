@@ -1,0 +1,19 @@
+[
+    {
+        "question": "What is your favorite color?",
+        "answers": [
+            {
+                "text": "Red",
+                "score": 5
+            },
+            {
+                "text": "Blue",
+                "score": 3
+            },
+            {
+                "text": "Green",
+                "score": 1
+            }
+        ]
+    }
+]
